@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: normal;
+    src:    local('Barlow'), 
+    url('/fonts/BarlowMedium.eot') format('embedded-opentype'),
+    url('/fonts/BarlowMedium.woff2') format('woff2'),
+    url('/fonts/Barlow-Medium.woff') format('woff'),
+    url('/fonts/BarlowMedium.ttf') format('truetype'),
+    url('/fonts/BarlowMedium.svg') format('svg');
+
+}
+
+@font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: normal;    
+    src: local('Barlow'), 
+    url('fonts/BarlowRegular.eot') format('embedded-opentype'),
+    url('fonts/BarlowRegular.woff2') format('woff2'),
+    url('fonts/BarlowRegular.woff') format('woff'),
+    url('fonts/BarlowRegular.ttf') format('truetype'),
+    url('fonts/BarlowRegular.svg') format('svg');
+
+}
+
+@font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Barlow'), 
+        url('/fonts/BarlowSemiBold.eot') format('embedded-opentype'),
+        url('/fonts/BarlowSemiBold.woff2') format('woff2'),
+        url('/fonts/BarlowSemiBold.woff') format('woff'),
+        url('/fonts/BarlowSemiBold.ttf') format('truetype'),
+        url('/fonts/BarlowSemiBold.svg') format('svg');
+
+}
+
+.regular_16 {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.medium_16 {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.semi_bold_16 {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.semi_bold_24 {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.semi_bold_20 {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.regular_20 {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.medium_20 {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+}

@@ -3,6 +3,7 @@
     margin: 0;
 }
 
+
 .amarin_blue {
     color: #1C355E;
 }
@@ -73,64 +74,6 @@
 
 .bg_bright_ocean {
     background-color: #4D9FFF;
-}
-
-.regular_16 {
-    font-family: 'Barlow', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-}
-
-.medium_16 {
-    font-family: 'Barlow', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-}
-
-.semi_bold_16 {
-    font-family: 'Barlow', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
-}
-
-.semi_bold_24 {
-    font-family: 'Barlow', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 32px;
-}
-
-.semi_bold_20 {
-    font-family: 'Barlow', sans-serif;
-
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 28px;
-}
-
-.regular_20 {
-    font-family: 'Barlow', sans-serif;
-
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px
-}
-
-.medium_20 {
-    font-family: 'Barlow', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 28px;
 }
 
 .button_default {
@@ -340,7 +283,7 @@
 .ul_li {
     font-family: 'Barlow', sans-serif;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 100;
     font-size: 20px;
     line-height: 24px
 }
@@ -482,7 +425,7 @@
 
 .frame_93 {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: flex-end;
     align-items: flex-end;
     padding: 0px;
@@ -490,6 +433,10 @@
 
     width: 150px;
     height: 80px;
+}
+
+.ellipse {
+    margin-bottom: 10px;
 }
 
 .main_class {
