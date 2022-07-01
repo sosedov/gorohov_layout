@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'BarlowMedium';
+    src: url('fonts/BarlowMedium.eot');
+    src: url('fonts/BarlowMedium.eot') format('embedded-opentype'),
+        url('fonts/BarlowMedium.woff2') format('woff2'),
+        url('fonts/BarlowMedium.woff') format('woff'),
+        url('fonts/BarlowMedium.ttf') format('truetype'),
+        url('fonts/BarlowMedium.svg#BarlowMedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BarlowRegular';
+    src: url(fonts/BarlowRegular.eot);
+    src: url(fonts/BarlowRegular.eot) format('embedded-opentype'),
+        url(fonts/BarlowRegular.woff2) format('woff2'),
+        url(fonts/BarlowRegular.woff) format('woff'),
+        url(fonts/BarlowRegular.ttf) format('truetype'),
+        url(fonts/BarlowRegular.svg#BarlowRegular) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BarlowSemiBold';
+    src: url('fonts/BarlowSemiBold.eot');
+    src: url('fonts/BarlowSemiBold.eot') format('embedded-opentype'),
+        url('fonts/BarlowSemiBold.woff2') format('woff2'),
+        url('fonts/BarlowSemiBold.woff') format('woff'),
+        url('fonts/BarlowSemiBold.ttf') format('truetype'),
+        url('fonts/BarlowSemiBold.svg#BarlowSemiBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.regular_16 {
+    font-family: 'BarlowRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+    
+.medium_16 {
+    font-family: 'BarlowMedium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+    
+.semi_bold_16 {
+    font-family: 'BarlowSemiBold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+    
+.semi_bold_24 {
+    font-family: 'BarlowSemiBold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+}
+    
+.semi_bold_20 {
+    font-family: 'BarlowSemiBold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+}
+    
+.regular_20 {
+    font-family: 'BarlowRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    }
+    
+.medium_20 {
+    font-family: 'BarlowMedium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+}
