@@ -3,6 +3,11 @@
     margin: 0;
 }
 
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
 
 .amarin_blue {
     color: #1C355E;
@@ -244,7 +249,7 @@
     padding: 15px 32px;
     gap: 1px;
     isolation: isolate;
-    position: absolute;
+    position: relative;
     width: 1440px;
     height: 85px;
     left: 0px;
@@ -337,13 +342,13 @@
     justify-content: space-around;
 }
 
+
 .content_nav{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
     gap: 20px;
-    position: absolute;
     width: 1160px;
     height: 828px;
     left: 280px;

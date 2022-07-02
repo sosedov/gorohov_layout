@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Barlow-MediumItalic';
+  src: url('Barlow-MediumItalic.eot');
+  src: url('Barlow-MediumItalic.eot?#iefix') format('embedded-opentype'),
+       url('Barlow-MediumItalic.svg#Barlow-MediumItalic') format('svg'),
+       url('Barlow-MediumItalic.ttf') format('truetype'),
+       url('Barlow-MediumItalic.woff') format('woff'),
+       url('Barlow-MediumItalic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

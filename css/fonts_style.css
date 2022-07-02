@@ -34,8 +34,29 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Barlow-SemiBoldItalic';
+    src: url('fonts/Barlow-SemiBoldItalic.eot');
+    src: url('fonts/Barlow-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Barlow-SemiBoldItalic.svg#Barlow-SemiBoldItalic') format('svg'),
+        url('fonts/Barlow-SemiBoldItalic.ttf') format('truetype'),
+        url('fonts/Barlow-SemiBoldItalic.woff') format('woff'),
+        url('fonts/Barlow-SemiBoldItalic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Barlow-Italic';
+    src: url('fonts/Barlow-Italic.ttf');
+    src: url('fonts/Barlow-Italic.ttf') format('truetype'),
+        url('fonts/Barlow-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}  
+
 .regular_16 {
-    font-family: 'BarlowRegular';
+    font-family: 'BarlowRegular', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -43,7 +64,7 @@
 }
     
 .medium_16 {
-    font-family: 'BarlowMedium';
+    font-family: 'BarlowMedium', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -51,7 +72,7 @@
 }
     
 .semi_bold_16 {
-    font-family: 'BarlowSemiBold';
+    font-family: 'BarlowSemiBold', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -59,7 +80,7 @@
 }
     
 .semi_bold_24 {
-    font-family: 'BarlowSemiBold';
+    font-family: 'BarlowSemiBold', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
@@ -67,7 +88,7 @@
 }
     
 .semi_bold_20 {
-    font-family: 'BarlowSemiBold';
+    font-family: 'BarlowSemiBold', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
@@ -75,7 +96,7 @@
 }
     
 .regular_20 {
-    font-family: 'BarlowRegular';
+    font-family: 'BarlowRegular', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -83,9 +104,17 @@
     }
     
 .medium_20 {
-    font-family: 'BarlowMedium';
+    font-family: 'BarlowMedium', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 28px;
+}
+
+.italic {
+    font-family: 'Barlow-Italic', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
 }
