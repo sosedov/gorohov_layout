@@ -72,7 +72,7 @@
     flex-direction: row;
     align-items: center;
     align-content: space-between;
-    width: 318px;
+    width: auto;
     height: 100%;
     flex: none;
     order: 0;

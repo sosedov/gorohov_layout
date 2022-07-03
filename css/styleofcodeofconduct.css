@@ -94,3 +94,19 @@
     padding: 24px;
     gap: 16px;
 }
+
+.img_section_3 {
+    background-image: url("/image/image 15.png");
+    background-size: cover;
+}
+
+.table_desk_ul{
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    gap: 16px;
+}
+
+.list_type_ul {
+    width: 50%;
+}
