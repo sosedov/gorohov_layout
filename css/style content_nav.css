@@ -2,12 +2,9 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0px;
+    padding: 0px 24px;
+    margin: 0px 24px;
     gap: 20px;
-    width: 1160px;
-    height: 828px;
-    left: 280px;
-    top: 85px;
 }
 
 .main_nav {
@@ -30,7 +27,7 @@
     padding: 0px;
     gap: 20px;
 
-    width: 942px;
+    width: 100%;
     height: 80px;
 }
 
